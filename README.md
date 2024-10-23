@@ -26,7 +26,7 @@ Rufus/
 ├── README.md                    # Project documentation (this file)
 └── main.py                      # Entry point for running the RufusClient
 
-```bash
+
 
 
 ## How to Use
