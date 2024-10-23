@@ -75,7 +75,6 @@ Rufus/
             "content": ["More information about NCSU"]
         }
     ]
-}
     ```
 ## Example Task
 You can use Rufus to scrape data from public websites, such as university pages or government websites. Here's an example of how you can provide instructions for the AI agent to scrape data from NC State University’s website.
@@ -83,13 +82,11 @@ You can use Rufus to scrape data from public websites, such as university pages 
 - Example prompt:
   ```bash
   from src.client import RufusClient
+  client = RufusClient()
 
-client = RufusClient()
-
-Example instructions and URL
-instructions = "Give me all information about North Carolina State University."
-documents = client.scrape("https://www.ncsu.edu")
-print(documents)
+  instructions = "Give me all information about North Carolina State University."
+  documents = client.scrape("https://www.ncsu.edu")
+  print(documents)
 
 ```
   
