@@ -27,4 +27,14 @@ Rufus/
 └── main.py                      # Entry point for running the RufusClient
 
 
+## How to Use
+# Prerequisites
+-Python 3.11 or later
+-A virtual environment or conda environment set up
+-Required dependencies (listed in requirements.txt)
+
+
+
+
+
 
