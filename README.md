@@ -87,8 +87,31 @@ You can use Rufus to scrape data from public websites, such as university pages 
   instructions = "Give me all information about North Carolina State University."
   documents = client.scrape("https://www.ncsu.edu")
   print(documents)
+   ```
+## Advanced Example
+  We demonstrate how to use the Rufus Web Scraper as a Python package. If Rufus were published as a package, you could install it and use it with an API key for authenticated requests.
+  - Install the Rufus package:
+    ```bash
+    pip install Rufus
+    ```
+  - Use the Rufus Client: After installation, you can use the RufusClient to scrape a website by providing an API key and instructions.
+     ```bash
+     from Rufus import RufusClient
+     import os 
 
-```
+     key = os.getenv('Rufus_API_KEY')
+     client = RufusClient(api_key=key)
+
+     instructions = "Find information about product features and customer FAQs."
+     documents = client.scrape("https://example.com")
+
+     print(documents)
+      ```
+
+     
+
+     
+
   
 
 
