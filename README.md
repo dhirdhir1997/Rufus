@@ -34,6 +34,16 @@ Rufus/
 - A virtual environment or conda environment set up
 - Required dependencies (listed in requirements.txt)
 
+### Installation
+- 1. Clone the Repository:
+     ```bash
+     git clone https://github.com/dhirdhir1997/Rufus
+     cd Rufus
+
+     
+
+  
+
 
 
 
