@@ -35,7 +35,7 @@ Rufus/
 - Required dependencies (listed in requirements.txt)
 
 ### Installation
-- I. Clone the Repository:
+-  Clone the Repository:
      ```bash
      git clone https://github.com/dhirdhir1997/Rufus
      cd Rufus
