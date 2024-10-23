@@ -107,6 +107,14 @@ You can use Rufus to scrape data from public websites, such as university pages 
 
      print(documents)
       ```
+## Testing
+```bash
+ python -m unittest discover test
+ ```
+
+
+
+
 
      
 
