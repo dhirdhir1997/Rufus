@@ -28,8 +28,8 @@ Rufus/
 
 ```
 
-## Rufus Case Study
-# Prerequisites
+## How to Use
+### Prerequisites
 -Python 3.11 or later
 -A virtual environment or conda environment set up
 -Required dependencies (listed in requirements.txt)
