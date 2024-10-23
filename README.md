@@ -28,7 +28,7 @@ Rufus/
 
 ```
 
-**Rufus Case Study**
+## Rufus Case Study
 # Prerequisites
 -Python 3.11 or later
 -A virtual environment or conda environment set up
