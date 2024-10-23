@@ -39,7 +39,50 @@ Rufus/
      ```bash
      git clone https://github.com/dhirdhir1997/Rufus
      cd Rufus
-```
+     ```
+- Create and Activate a Virtual Environment:
+  ```bash
+  conda create --name rufus-env python=3.11
+  conda activate rufus-env
+  ```
+  - Install Dependencies:
+    ```bash
+    pip install -r requirements.txt
+     ```
+  ### Running the application
+  - Run the Scraper:
+    To scrape information from North Carolina State University (NCSU), run the following command:
+     ```bash
+    python main.py
+     ```
+  - Modify Instructions:
+    If you want to scrape for different information, modify the instructions variable in main.py.
+    ```bash
+    instructions = "Give me all information about North Carolina State University"
+    ```
+  - Check Results:
+    After running the scraper, the data will be saved as output.json. Open it to see the structured results:
+     ```bash
+    {
+    "timestamp": "2024-10-22 14:35:00",
+    "results": [
+        {
+            "url": "https://www.ncsu.edu/link1",
+            "content": ["Information about NCSU from the link"]
+        },
+        {
+            "url": "https://www.ncsu.edu/link2",
+            "content": ["More information about NCSU"]
+        }
+    ]
+}
+    
+ ```
+    
+
+  
+  
+
      
 
      
