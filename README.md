@@ -26,14 +26,7 @@ Rufus/
 ├── README.md                    # Project documentation (this file)
 └── main.py                      # Entry point for running the RufusClient
 
- ---
-
-
-
-
-
-
-## How to Use
+**Rufus Case Study**
 # Prerequisites
 -Python 3.11 or later
 -A virtual environment or conda environment set up
