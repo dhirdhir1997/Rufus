@@ -45,22 +45,22 @@ Rufus/
   conda create --name rufus-env python=3.11
   conda activate rufus-env
   ```
-  - Install Dependencies:
+- Install Dependencies:
     ```bash
     pip install -r requirements.txt
      ```
-  ### Running the application
-  - Run the Scraper:
+### Running the application
+- Run the Scraper:
     To scrape information from North Carolina State University (NCSU), run the following command:
      ```bash
     python main.py
      ```
-  - Modify Instructions:
+- Modify Instructions:
     If you want to scrape for different information, modify the instructions variable in main.py.
     ```bash
     instructions = "Give me all information about North Carolina State University"
     ```
-  - Check Results:
+- Check Results:
     After running the scraper, the data will be saved as output.json. Open it to see the structured results:
      ```bash
     {
